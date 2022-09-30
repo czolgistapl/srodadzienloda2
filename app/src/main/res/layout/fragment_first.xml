@@ -13,6 +13,7 @@
         android:text="pierwszy ekran"
         app:layout_constraintBottom_toTopOf="@id/button_first"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.826"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -23,6 +24,7 @@
         android:text="wejdz"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.724"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/textview_first" />
 
@@ -30,24 +32,25 @@
         android:id="@+id/imageView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:rotationX="-54"
         android:src="@drawable/strefabeki_logo"
         app:layout_constraintBottom_toTopOf="@+id/textview_first"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.489"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.164" />
+        app:layout_constraintVertical_bias="0.046" />
 
     <TextView
         android:id="@+id/textView2"
-        android:layout_width="126dp"
-        android:layout_height="530dp"
+        android:layout_width="163dp"
+        android:layout_height="589dp"
         android:rotationY="-335"
         android:text="Ile dałbym, by zapomnieć Cię Wszystkie chwile te, które są na nie Bo chcę (bo chcę) Nie myśleć o tym już Zdmuchnąć wszystkie wspomnienia niczym zaległy kurz Tak już (tak już) Po prostu nie pamiętać sytuacji, w których serce klęka Wiem, nie wyrwę się, chociaż bardzo chcę Mam nadzieję, że to wiesz i Ty Znowu widzę Ciebie przed swoimi oczami Znowu zasnąć nie mogę, owładnięty marzeniami Wszystko poświęcam myśli, że byłaś kiedyś blisko Kiedy czułem Ciebie obok, wtedy czułem, że mam wszystko Tyle zostało po mnie, tylko Ty i setki wspomnień Ile dałbym za to, by móc o tym już zapomnieć Teraz nie ma Nas i nie chcę być tam gdzie Ty jesteś Znowu staniesz przede mną, zawsze robisz mi to we śnie Będę patrzył jak odchodzisz, chociaż chciałbym się odwrócić Będę myślał ile dałbym komuś kto by czas zawrócił Kto by zatrzymał wskazówki, tylko na ten jeden moment W chwili, w której Cię poznałem poszedłbym już w drugą stronę Ile dałbym, by zapomnieć Cię Wszystkie chwile te, które są na nie Bo chcę (bo chcę) Nie myśleć o tym już Zdmuchnąć wszystkie wspomnienia niczym zaległy kurz Tak już (tak już) Po prostu nie pamiętać sytuacji, w których serce klęka Wiem, nie wyrwę się, chociaż bardzo chcę Mam nadzieję, że to wiesz i Ty To był sen na jawie, gdy marzenia się spełniały Wszystko takie realne, chwile szybko tak mijały Tylko my, zamknięci w czterech ścianach, a tak wolni Ważna Ty byłaś obok, a ja czułem się spokojny Pamiętasz jeszcze? Te dni, całe miesiące Pamiętasz? Chcesz zapomnieć? Ja nie mogę, wiem, że błądzę Snute kiedyś opowiastki, ja, Ty i srebrna taca Kiedyś to nie przerażało, już do tego nie chcę wracać Aura zepsucia w powietrzu, tracisz te 50 procent Chcę zapomnieć o Tobie, zatrzeć w pamięci te noce By odeszły w niepamięć, chwile, które zwałem złotem Tamte chwile to tombak, bo już wiem co było potem Ile dałbym, by zapomnieć Cię Wszystkie chwile te, które są na nie Bo chcę (bo chcę) Nie myśleć o tym już Zdmuchnąć wszystkie wspomnienia niczym zaległy kurz Tak już (tak już) Po prostu nie pamiętać sytuacji, w których serce klęka Wiem, nie wyrwę się, chociaż bardzo chcę Mam nadzieję, że to wiesz i Ty Moje myśli spiętrzone wokół jednej chwili Kiedyś ta krótka potrafiła czas umilić Teraz stojąc jakby obok wciąż się przyglądam Już nie cieszy jak kiedyś, wspominam, myślę dokąd zdążam Inne cele w życiu, inne plany i pragnienia Muszę wszystko pozmieniać, tak jak czas wszystko zmienia To co było nie wróci, wiem, choć czasem mam nadzieję Po co mam więc pamiętać, ktoś by powiedział „stare dzieje&quot; Wiem to, nie mogę zapomnieć jak było dobrze Wiem to, skończyło się, mój własny pogrzeb Wiem to, i proszę Boga, nigdy więcej Niech nie pozwoli na to, by ktoś trafił w moje serce Ile dałbym, by zapomnieć Cię Wszystkie chwile te, które są na nie Bo chcę (bo chcę) Nie myśleć o tym już Zdmuchnąć wszystkie wspomnienia niczym zaległy kurz Tak już (tak już) Po prostu nie pamiętać sytuacji, w których serce klęka Wiem, nie wyrwę się, chociaż bardzo chcę Mam nadzieję, że to wiesz i Ty"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/button_first"
-        app:layout_constraintHorizontal_bias="0.444"
+        app:layout_constraintHorizontal_bias="0.436"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView"
-        app:layout_constraintVertical_bias="0.299" />
+        app:layout_constraintVertical_bias="0.245" />
 </androidx.constraintlayout.widget.ConstraintLayout>
